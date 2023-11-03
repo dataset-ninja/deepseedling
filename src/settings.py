@@ -59,7 +59,7 @@ PAPER: Optional[
 BLOGPOST: Optional[Union[str, List[str], Dict[str, str]]] = None
 REPOSITORY: Optional[
     Union[str, List[str], Dict[str, str]]
-] = {"Github":"https://github.com/UGA-BSAIL/deepseedling"}
+] = {"GitHub":"https://github.com/UGA-BSAIL/deepseedling"}
 
 CITATION_URL: Optional[str] = None
 AUTHORS: Optional[List[str]] = [
@@ -68,6 +68,7 @@ AUTHORS: Optional[List[str]] = [
     "Andrew H. Paterson",
     "Jon S. Robertson",
 ]
+AUTHORS_CONTACTS: Optional[List[str]] = ["cyli@uga.edu"]
 
 ORGANIZATION_NAME: Optional[Union[str, List[str]]] = ["The University of Georgia, USA"]
 ORGANIZATION_URL: Optional[Union[str, List[str]]] = ["https://www.uga.edu/"]
@@ -123,6 +124,7 @@ def get_settings():
     settings["repository"] = REPOSITORY
     settings["citation_url"] = CITATION_URL
     settings["authors"] = AUTHORS
+    settings["authors_contacts"] = AUTHORS_CONTACTS
     settings["organization_name"] = ORGANIZATION_NAME
     settings["organization_url"] = ORGANIZATION_URL
     settings["slytagsplit"] = SLYTAGSPLIT
