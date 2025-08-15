@@ -1,6 +1,6 @@
 Dataset **DeepSeedling** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://assets.supervisely.com/remote/eyJsaW5rIjogImZzOi8vYXNzZXRzLzIxMTNfRGVlcFNlZWRsaW5nL2RlZXBzZWVkbGluZy1EYXRhc2V0TmluamEudGFyIiwgInNpZyI6ICJuN1hrMHE2UFZMdEdGVy9TSWw2NlBTajQwa1QzVFJOek9HWmxKeStZZW8wPSJ9)
+ [Download](https://assets.supervisely.com/remote/eyJsaW5rIjogInMzOi8vc3VwZXJ2aXNlbHktZGF0YXNldHMvMjExM19EZWVwU2VlZGxpbmcvZGVlcHNlZWRsaW5nLURhdGFzZXROaW5qYS50YXIiLCAic2lnIjogIlFDa2k5RWxFMkF1UmhJdGRkalVMaWE5WDNUTnBSVnE4MTZBbnQ5NUJsREU9In0=?response-content-disposition=attachment%3B%20filename%3D%22deepseedling-DatasetNinja.tar%22)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
